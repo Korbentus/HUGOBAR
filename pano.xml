@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1">
+  <panorama id="node1">
+    <input tile4url="images/25_o_4.jpg" tilesize="1024" levelingpitch="0" prev5url="images/25_o_preview_5.jpg" tile1url="images/25_o_1.jpg" tile2url="images/25_o_2.jpg" levelingroll="0" tilescale="1.009766" prev2url="images/25_o_preview_2.jpg" prev3url="images/25_o_preview_3.jpg" prev4url="images/25_o_preview_4.jpg" prev0url="images/25_o_preview_0.jpg" tile3url="images/25_o_3.jpg" tile0url="images/25_o_0.jpg" prev1url="images/25_o_preview_1.jpg" tile5url="images/25_o_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" tilt="-14.18" pan="44.85"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata title="" description="" comment="" tags="lumion" longitude="" copyright="" latitude="" datetime="" author="" info="" source=""/>
+    <hotspots wordwrap="1" width="250" height="0">
+      <label enabled="1" borderalpha="1" textcolor="0xffffff" wordwrap="1" background="0" width="250" backgroundalpha="1" borderradius="1" bordercolor="0xffffff" height="0" backgroundcolor="0xffffff" textalpha="1" border="0"/>
+      <polystyle handcursor="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot title="перейти во второй вариант" description="" skinid="перейти во второй вариант" tilt="-29.98" url="{node2}" pan="44.52" id="Point01" target="100.549/-20.5964/70"/>
+      <polyhotspot title="нажми" description="" url="{node2}" id="Poly01" target="101.785/-21.1647/60">
+        <vertex tilt="-27.21" pan="59.41"/>
+        <vertex tilt="-20.74" pan="52.66"/>
+        <vertex tilt="-20.75" pan="38.4"/>
+        <vertex tilt="-24.38" pan="33.18"/>
+        <vertex tilt="-31.92" pan="29.08"/>
+        <vertex tilt="-39.32" pan="36.95"/>
+        <vertex tilt="-40.34" pan="51.62"/>
+        <vertex tilt="-32.73" pan="59.94"/>
+        <vertex tilt="-32.71" pan="60.12"/>
+      </polyhotspot>
+    </hotspots>
+    <media>
+      <sound loop="0" field="90.000" ambientlevel="0.000" tilt="-1.000" level="0.200" pan="-1.000" id="_background" tiltsize="10.000" mode="0" pansize="10.000">
+        <source url="media/Joey_Pecoraro_-_Tired_Boy (mp3cut.ru).mp3"/>
+      </sound>
+      <lensflare blinding="50" type="11" tilt="9.98" pan="8.07" alpha="80" id="Lensflare01" color="0xffffff"/>
+      <lensflare blinding="50" type="2" tilt="5" pan="44.61" alpha="80" id="Lensflare02" color="0xffffff"/>
+    </media>
+    <transition enabled="1" blendtime="2" zoomout="0" type="diptocolor" zoomin="0" zoomfov="20" softedge="0" blendcolor="0x000000" zoomspeed="2" zoomoutpause="1"/>
+    <autorotate speed="0.100" delay="7.00" useanimation="0" startloaded="0" nodedelay="0.00" noderandom="1" returntohorizon="0.000"/>
+    <control simulatemass="1" hideabout="0" dblclickfullscreen="0" invertwheel="0" speedwheel="1" lockedmouse="0" lockedkeyboard="0" contextfullscreen="0" sensitivity="8" lockedwheel="0" lockedkeyboardzoom="0" invertcontrol="1"/>
+  </panorama>
+  <panorama id="node2">
+    <input tile4url="images/28_o_4.jpg" tilesize="1024" levelingpitch="0" prev5url="images/28_o_preview_5.jpg" tile1url="images/28_o_1.jpg" tile2url="images/28_o_2.jpg" levelingroll="0" tilescale="1.009766" prev2url="images/28_o_preview_2.jpg" prev3url="images/28_o_preview_3.jpg" prev4url="images/28_o_preview_4.jpg" prev0url="images/28_o_preview_0.jpg" tile3url="images/28_o_3.jpg" tile0url="images/28_o_0.jpg" prev1url="images/28_o_preview_1.jpg" tile5url="images/28_o_5.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" tilt="-10.39" pan="98.26"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata title="" description="" comment="" tags="lumion" longitude="" copyright="" latitude="" datetime="" author="" info="" source=""/>
+    <hotspots wordwrap="1" width="250" height="0">
+      <label enabled="1" borderalpha="1" textcolor="0xffffff" wordwrap="1" background="0" width="250" backgroundalpha="1" borderradius="1" bordercolor="0xffffff" height="0" backgroundcolor="0xffffff" textalpha="1" border="0"/>
+      <polystyle handcursor="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot title="вернутся в первый вараинт" description="" skinid="вернутся в первый вараинт" tilt="-25.93" url="{node1}" pan="101.63" id="Point01" target="43.8092/-24.4394/60"/>
+      <polyhotspot title="нажми" description="" url="{node1}" id="Poly01" target="45.1833/-17.826/60">
+        <vertex tilt="-18.91" pan="114.04"/>
+        <vertex tilt="-13.5" pan="103.99"/>
+        <vertex tilt="-16.73" pan="92.41"/>
+        <vertex tilt="-21.54" pan="87.66"/>
+        <vertex tilt="-29.41" pan="87.5"/>
+        <vertex tilt="-33.47" pan="91.37"/>
+        <vertex tilt="-37.22" pan="101.82"/>
+        <vertex tilt="-36.76" pan="109.01"/>
+        <vertex tilt="-32.75" pan="115.31"/>
+        <vertex tilt="-24.73" pan="117.83"/>
+      </polyhotspot>
+    </hotspots>
+    <media>
+      <sound loop="0" field="90.000" ambientlevel="0.000" tilt="-1.000" level="0.300" pan="-1.000" id="_background" tiltsize="10.000" mode="0" pansize="10.000">
+        <source url="media/Joey_Pecoraro_-_Tired_Boy (mp3cut.ru).mp3"/>
+      </sound>
+      <lensflare blinding="60" type="2" tilt="8.380000000000001" pan="85.17" alpha="80" id="Lensflare01" color="0xffffff"/>
+      <lensflare blinding="30" type="11" tilt="11.4" pan="44.45" alpha="80" id="Lensflare02" color="0xffffff"/>
+      <lensflare blinding="30" type="11" tilt="11.82" pan="-5.84" alpha="80" id="Lensflare03" color="0xffffff"/>
+    </media>
+    <transition enabled="1" blendtime="2" zoomout="0" type="diptocolor" zoomin="0" zoomfov="20" softedge="0" blendcolor="0x000000" zoomspeed="2" zoomoutpause="1"/>
+    <autorotate speed="0.100" delay="7.00" useanimation="0" startloaded="0" nodedelay="0.00" noderandom="1" returntohorizon="0.000"/>
+    <control simulatemass="1" hideabout="0" dblclickfullscreen="0" invertwheel="0" speedwheel="1" lockedmouse="0" lockedkeyboard="0" contextfullscreen="0" sensitivity="8" lockedwheel="0" lockedkeyboardzoom="0" invertcontrol="1"/>
+  </panorama>
+</tour>
